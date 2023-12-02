@@ -23,10 +23,10 @@ export default function ChatAvatar(message: Message) {
     <div className="flex h-8 w-8 shrink-0 select-none items-center justify-center rounded-md border  bg-black text-white">
       <Image
         className="rounded-md"
-        src="/llama.png"
-        alt="Llama Logo"
-        width={24}
-        height={24}
+        src="/gita_guru.jpg"
+        alt="Gita Guru Logo"
+        width={44}
+        height={44}
         priority
       />
     </div>

@@ -24,7 +24,7 @@ export default function ChatInput(props: ChatInputProps) {
         <input
           autoFocus
           name="message"
-          placeholder="Type a message"
+          placeholder="Talk to Him..."
           className="w-full p-4 rounded-xl shadow-inner flex-1"
           value={props.input}
           onChange={props.handleInputChange}
@@ -34,7 +34,7 @@ export default function ChatInput(props: ChatInputProps) {
           type="submit"
           className="p-4 text-white rounded-xl shadow-xl bg-gradient-to-r from-cyan-500 to-sky-500 disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          Send message
+          Get Knowledge
         </button>
       </form>
     </>

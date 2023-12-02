@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
     }
 
     const llm = new OpenAI({
-      model: "gpt-3.5-turbo",
+      model: "gpt-4",
     });
 
     const chatEngine = await createChatEngine(llm);
